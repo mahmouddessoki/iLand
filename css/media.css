@@ -1,0 +1,72 @@
+@media screen and (max-width: 400px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+
+
+@media screen and (max-width: 991px) {
+    /* html {
+        font-size: 12px;
+    } */
+    .header-caption h1 , .header-caption .h1 {
+        font-size: 2rem !important;
+
+    }
+   
+
+
+   /* nav .navbar-collapse {
+    position: fixed !important;
+    height: 100vh !important;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100% !important;
+    left: 0 !important;
+    /* bottom: 0; 
+    top: 0 !important;
+
+    }
+    nav .navbar-collapse ul {
+            background: white;
+    width: 90%;
+    padding: 1rem;
+    } */
+
+    .modal-dialog {
+        max-width: 95% !important;
+        /* left: 2.5% !important; */
+        top:5rem !important;
+        margin: auto !important;
+    }
+
+    /* .modal-header {
+    position: absolute;
+    z-index: 999999999999;
+    right: -10px;
+    top: -110%;
+    } */
+
+
+    .about .about-img .img-overlay1 {
+        position: static !important;
+        transform: none !important;
+        width: 100% !important;
+        border: 0 !important;
+        /* border-radius: 0 !important;*/
+    }
+    .about .about-img .img-overlay1 img {
+            border: 0 !important;
+    }
+
+    .col-to-action h2 {
+        font-size: 2rem !important;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+     .modal , .modal-backdrop {
+        z-index: -10 !important;
+    }
+ }

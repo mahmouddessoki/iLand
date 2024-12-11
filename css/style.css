@@ -106,6 +106,22 @@ nav .nav-item:hover .nav-link:not(.inner) ,
     color: #0D83FD !important;
 }
 
+.slider-imgs img {
+    width: 5rem !important;
+    height: 5rem;
+    object-fit: contain;
+}
+
+.slider-indicators .btn {
+    background-color: #D3D3D4;
+    width: 1rem !important;
+    height: 1rem !important;
+}
+.slider-indicators .active {
+    background-color: #0A58CA;
+
+}
+
 
 
 
@@ -438,4 +454,18 @@ footer a:hover {
 
 .modal {
         background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.img_box img {
+    width: 70%;
+    height: auto;
+    object-fit: contain;
+    opacity: 0.5;
+    filter: grayscale(100%);
+}
+.img_box img:hover {
+    filter:grayscale(0);
+    opacity:1
 }
